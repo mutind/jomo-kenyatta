@@ -12,45 +12,76 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- fontawosome -->
   <script src="https://kiwesome.com/1a7eb27194.js" crossorigin="anonymous"></script>
+  <style>
+    body{
+      margin: 0;  
+      background: #f2f2f2;
+    }
+    .nav{
+        width: 100;
+        background: #000033;
+        height: 80px;   
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+        margin:0;
+        position: absolute;
+    }
+    ul li{
+        float: left;
+        margin-top: 20px;
+    }
+    ul li a{
+        width: 150px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: century Gothic;
+    font-weight: bold; 
+    }
+    a:hover{
+        background-color: #990091;
+    }
+    ul li ul {
+        background: #000033;
+    }
+    ul li ul li{
+        float: none;
 
+    }
+    ul li ul{
+        display: none;
+    }
+    ul li:hover ul{
+        dispLay:block;
+    }
+</style>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="pages/accomplicement.html">accomplishment</a></li>
-              <li><a class="dropdown-item" href="pages/our-history.html">our history</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+  <div class="nav">
+    <ul>
+    <li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Feedback</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Contact us</a></li>
+    
+    
+    </li>
+    
+    </ul>
+    
+    
+    
+        </div>
+    
  <!-- carausel section start -->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -71,7 +102,7 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/6.jpg" class="d-block w-100 " alt="slide i">
+      <img src="assets/images/4.jpg" class="d-block w-100 " alt="slide i">
       <div class="carousel-caption d-none d-md-block">
         <h5>WELCOME</h5>
         <p>one of the best airport in kenya</p>
@@ -85,14 +116,14 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/4.jpg" class="d-block w-100 " alt="slide 1">
+      <img src="assets/images/5.jpg" class="d-block w-100 " alt="slide 1">
       <div class="carousel-caption d-none d-md-block">
         <h5>WE ALWAYS OFFER ONE OF THE BEST SERVICES AROUND </h5>
         <p>We have the best and most eqquiped airplanes around</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/2.jpg" class="d-block w-100 " alt="slide 1">
+      <img src="assets/images/9.jpg" class="d-block w-100 " alt="slide 1">
       <div class="carousel-caption d-none d-md-block">
         <h5>OUR SERVICES ARE ALWAYS AVAILABLE </h5>
         <p>we have the best staff in the area</p>
@@ -114,7 +145,7 @@
 <section>
 <!-- new section -->
 <section class="newssection bg-light pt-5 pb-3">
-  <h2 class="text-danger text-center">latest <span>News</span></h2>
+  <h2 class="text-danger text-center">JOMO KENYATTA <span>AIRPORT</span></h2>
 <center><div class="border"></div></center>
 
 <div class="row px-2">
@@ -129,10 +160,10 @@
     </p>
       <hr>
       <h3 class="card title text center">
-    air france to open three new haul destination
+    jomo kenyatta international airport
       </h3>
   <p class="card-text">
-    Destinations in Tanzania, Oman and Sri Lanka are being added to the carrier’s international network.
+  this is one of the biggest airport in kenya
   </p>
   <a href="#"class="btn btn-outline-danger btn-sm">
     read more
@@ -157,7 +188,7 @@
     China’s aviation authority has given the go-ahead for carriers to start four new international passenger services, including flights to Madrid and...
   </p>
     
-  <a href="#"class=btn btn-outline-danger btn-sm>
+  <a href="#"class="btn btn-outline-danger btn-sm">
     read more
     </a>
     </div>
@@ -165,6 +196,55 @@
     </div>
   
   </div>
+  <div class="row px-2">
+    <!-- first column -->
+    <div class="col-md-6">
+      <div class="card">
+        <img src="assets/images/16.jpg" alt="news1"class="card-img-top img-thumbnail">
+        <!-- card body -->
+    <div class="card-body">
+      <p><i class="fas fa-calendar-check"></i> from 1980-now
+  
+      </p>
+        <hr>
+        <h3 class="card title text center">
+      how many runways does jkiahave
+        </h3>
+    <p class="card-text">
+      
+only one runway (06/24) which is 4,117m (13,507ft) paved in asphalt and ILS (Instrument Landing System) equipped. The current runway is sufficient to accommodate over 80,000 landings and take-offs a year but at the moment the number is only 60,000.
+    </p>
+    <a href="#"class="btn btn-outline-danger btn-sm">
+      read more
+    </a>
+    </div>
+    </div>
+    </div>
+    <!-- second column -->
+    <div class="col-md-6">
+    <div class="card">
+        <img src="assets/images/7.jpg" alt="news1"class="card-img-top img-thumbnail">
+        <!-- card body -->
+    <div class="card-body">
+      <p><i class="fas fa-calendar-check"></i> from 1980-now
+  
+      </p> 
+        <hr>
+        <h3 class="card title text center">
+          how many terminal does jkia have
+        </h3>
+    <p class="text">
+      There are two terminals. Terminal 1 is arranged in a semi-circular orientation and is divided into four parts: 1A, 1B, 1C, and 1E are used for international arrivals and departures while terminal 1D is used for domestic departures and arrivals. Terminal 2 is used by low-cost carriers.
+
+      
+    <a href="#"class="btn btn-outline-danger btn-sm">
+      read more
+      </a>
+      </div>
+      </div>
+      </div>
+    
+    </div>
   
   
       <!-- new section -->
@@ -177,14 +257,38 @@
   
   
   </section>
-  <!--/ new section ends -->
+  <!-- new section ends -->
+   
+  <footer class="footer-area">
+<div class="main">
+<div class="footer">
+  <div class="single-footer">
+<h4>ABOUT US</h4>
+<P>
+  WE OFFER THE BEST SERVICES
+</P>
+<div class="footer-social">
+<a href=""><i class="fab fa-facebook-square"</i></a>
+<a href=""><i class="fab fa-twitter"</i></a>
+<a href=""><i class="fab fa-youtube"</i></a>
+<a href="">><i class="fab fa-internet-explorer"</i></a>
+</div>
+  </div>
+  <div class="single-footer">
+<h4>main menu</h4>
+
+
+
+  </div>
+</div>
+</div>
+  </div>
+
+
+
+
+
   
-  
-
-
-
-
-
 
 
 <!-- jquery -->
