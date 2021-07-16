@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,22 +7,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flight booking tickets</title>
     <!-- bootstrap css -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
   <!-- custom css -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+<!-- fontawesome kit -->
+<script src="https://kit.fontawesome.com/1a7eb27194.js" crossorigin="anonymous"></script>
+
+
 </head>
 <body>
-    <img src="../assets/images/10.jpg" alt="">
-    <div class="booking-form-box">
-<div class="radio-btn">
-<input type="radio" class="btn" name="check" checked="checked"><span>roundtrip</span>
-<input type="radio" class="btn" name="check"><span>oneway </span>
-<input type="radio" class="btn" name="check"><span>mulyy-city</span>
-\
+  <div class="container" style="background:url(../assets/images/20.jpg)">
+
+    <!-- container -->
+<form class="form-group">
+  <!-- form -->
+  <h1 class="text-center">AIRLINE BOOKING FORM</h1>
+  <div id="form">
+    <!-- form -->
+<h3 class="text-white">booking details</h3>
+
+<div id="input">
+  <!-- input -->
+  <input type="text" id="input-group" placeholder="from">
+  
+  <input type="text" id="input-group" placeholder="to">
+  <select  id="input-group" style="background: black;">
+    <option value="">preffered airplane</option>
+    <option value="">indogo</option>
+    <option value="">airindia></option>
+    <option value="">space jet</option>
+  </select>
+  <select  id="input-group" style="background: black;">
+    <option value="">preffered sitting</option>
+    <option value="">economy class</option>
+    <option value="">business class</option>
+    <option value="">first class</option>
+  </select>
+  </div>
+  <!-- input -->
+  <div id="input 2">
+    <!-- input 2 -->
+<input type="number" id="input-group" placeholder="Adults">
+<input type="number" id="input-group" placeholder="children(2-11yrs)">
+<input type="number" id="input-group" placeholder="Infants(under 2 yrs)">
 
 
+  </div>
+  <!-- input 2 -->
+  
+  <div id="input3">
+<!-- input 3 -->
+<span class="text-primary">select your fare </span>
+<label class="text-white" for="input-group">one way</label>
+<input type="radio" id="input-group" name="r">
+<label for="input-group">round trip</label>
+<input type="radio" id="input-group" name="r">
+
+  </div>
+  <!-- input 3 -->
+</div>
+  <!-- form -->
+
+  </div>
+</form>
+<!-- form -->
 
 </div>
-    </div>
+<!-- container -->
+  
+
+    <!-- jquery -->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+    <!-- popper js -->
+    <script src="../assets/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+
+
+
 </body>
 </html>
