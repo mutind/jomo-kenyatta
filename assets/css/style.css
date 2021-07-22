@@ -149,7 +149,7 @@ background-position: center;
 }
 #form{
     background-color: #000;
-    height: 500px;
+    height: 600px;
     width: 700px;
     margin: auto;
     padding: 20px;
@@ -174,16 +174,102 @@ background-position: center;
         background: transparent;
         color: #fff;
 }
-#input2 #input-group{
+#input-2 #input-group{
     width: 195px;
     margin: 5px;
     border-top:none;
     border-left:none;
     border-right:none;
     outline:none;  
-    background: transparent;
+    background:transparent;
     color: #fff;
     }
+    #input-3 #input-group{
+    margin-left: 50px;
 
-
-
+    }
+    #input-4 #input-group{
+        width: 615px;
+        margin:5px;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        outline:none;  
+        background:transparent;
+        color:#fff;
+    }
+    #input-5{
+        border-bottom: 2px solid #3399ff;
+        width: 210px;
+        padding: 5px;
+    }
+    #input-6 #input-group{
+        width: 615px;
+        margin:5px;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        outline:none;  
+        background:transparent;
+        color:#fff;
+    }
+    #input-6 #input-group1{
+        width: 615px;
+        margin:5px;
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        outline:none;  
+        background:transparent;
+        color:#fff;
+    }
+    footer{
+        color: white;}
+    footer h5{
+            text-transform:uppercase;
+            font-weight:800;
+        }
+        footer p span{
+            font-weight: 300;
+            color: red;
+        }
+    footer ul.social li{
+        display: inline-block!important;
+        margin-right: 50px;
+        font-size: 28px;
+        border: 1px solid red;
+        height: 50px;
+        width: 50px;
+        border-radius: 40%;
+        text-align: center;
+    }
+    footer ul li a i{
+        border: nonef;
+        position:relative;
+        margin:10px 10px;  
+    }
+    .facebook{
+        color: #3b5998;
+    }
+    .twitter{
+        color:#38a1f3 ;
+    }
+    .youtube{
+        color: red;
+    }
+    .instagram{
+        color: #e1306c;
+    }
+    footer ul li:hover{
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    footer ul.quick-links li {
+    list-style-type: none;
+    color: red;
+    text-decoration: none;
+    }
+    footer p.contact i{
+        border: none;
+    }
+   

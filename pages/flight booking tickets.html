@@ -15,8 +15,44 @@
 
 
 </head>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
 <body>
-  <div class="container" style="background:url(../assets/images/20.jpg)">
+  <div class="container" style="background:url(../assets/images/20.jpg);background-attachment: fixed;background-size: cover;)
 
     <!-- container -->
 <form class="form-group">
@@ -31,21 +67,23 @@
   <input type="text" id="input-group" placeholder="from">
   
   <input type="text" id="input-group" placeholder="to">
+  <input type="text" id="input-group" placeholder="depature date">
+  <input type="text" id="input-group" placeholder="depature time">
   <select  id="input-group" style="background: black;">
-    <option value="">preffered airplane</option>
-    <option value="">indogo</option>
-    <option value="">airindia></option>
-    <option value="">space jet</option>
+    <option value="">Preffered airplane</option>
+    <option value="">Indogo</option>
+    <option value="">Air India</option>
+    <option value="">Space jet</option>
   </select>
   <select  id="input-group" style="background: black;">
-    <option value="">preffered sitting</option>
-    <option value="">economy class</option>
-    <option value="">business class</option>
-    <option value="">first class</option>
+    <option value="">Preffered sitting</option>
+    <option value="">Economy class</option>
+    <option value="">Business class</option>
+    <option value="">First class</option>
   </select>
   </div>
   <!-- input -->
-  <div id="input 2">
+  <div id="input-2">
     <!-- input 2 -->
 <input type="number" id="input-group" placeholder="Adults">
 <input type="number" id="input-group" placeholder="children(2-11yrs)">
@@ -55,19 +93,43 @@
   </div>
   <!-- input 2 -->
   
-  <div id="input3">
+  <div id="input-3">
 <!-- input 3 -->
-<span class="text-primary">select your fare </span>
+<span id="input-group" class="text-primary">select your fare </span>
+<input type="radio" id="input-group" name="r">
 <label class="text-white" for="input-group">one way</label>
 <input type="radio" id="input-group" name="r">
-<label for="input-group">round trip</label>
-<input type="radio" id="input-group" name="r">
+<label class="text-white" for="input-group">multiple ways</label>
 
   </div>
-  <!-- input 3 -->
-</div>
-  <!-- form -->
+  <!-- input 4-->
+<div id="input-4">
+  <input type="text" id="input-group" placeholder="Return-date">
+  <input type="text" id="input-group" placeholder="Return-time">
+  <input type="text" id="input-group" placeholder="Any message">
+  
 
+
+</div>
+<div id="input-5">
+<!-- input 5 -->
+<head>personal details</head>
+  </div>
+  <!-- input 5 -->
+  <div id="input-6">
+    <!-- input 6 -->
+    <input type="text" id="input-group" placeholder="Full name">
+    <input type="number" id="input-group" placeholder="Phone number">
+    <input type="email" id="input-group1" placeholder="Email">
+  </div>
+   <!-- input 6 -->
+  <button type="submit" class="btn btn-warning text-white">
+    Submit form
+  </button>
+  <button type="clear" class="btn btn-primary text-white">
+    clear form
+  </button>
+  <!-- form -->
   </div>
 </form>
 <!-- form -->

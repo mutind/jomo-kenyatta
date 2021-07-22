@@ -12,75 +12,45 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- fontawosome -->
   <script src="https://kiwesome.com/1a7eb27194.js" crossorigin="anonymous"></script>
-  <style>
-    body{
-      margin: 0;  
-      background: #f2f2f2;
-    }
-    .nav{
-        width: 100;
-        background: #000033;
-        height: 80px;   
-    }
-    ul{
-        list-style: none;
-        padding: 0;
-        margin:0;
-        position: absolute;
-    }
-    ul li{
-        float: left;
-        margin-top: 20px;
-    }
-    ul li a{
-        width: 150px;
-    color: white;
-    display: block;
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-    font-family: century Gothic;
-    font-weight: bold; 
-    }
-    a:hover{
-        background-color: #990091;
-    }
-    ul li ul {
-        background: #000033;
-    }
-    ul li ul li{
-        float: none;
-
-    }
-    ul li ul{
-        display: none;
-    }
-    ul li:hover ul{
-        dispLay:block;
-    }
-</style>
+ 
 </head>
 <body>
-  <div class="nav">
-    <ul>
-    <li>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">News</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Feedback</a></li>
-    <li><a href="#">About us</a></li>
-    <li><a href="#">Contact us</a></li>
-    
-    
-    </li>
-    
-    </ul>
-    
-    
-    
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="pages/accomplicement.html">flight booking</a></li>
+              <li><a class="dropdown-item" href="pages/our-history.html">contacts us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
     
  <!-- carausel section start -->
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -220,10 +190,20 @@ only one runway (06/24) which is 4,117m (13,507ft) paved in asphalt and ILS (Ins
     </div>
     </div>
     </div>
+    
     <!-- second column -->
     <div class="col-md-6">
-    <div class="card">
-        <img src="assets/images/7.jpg" alt="news1"class="card-img-top img-thumbnail">
+    <div c
+    
+    
+    
+    
+    
+    
+    
+    
+             lass="card">
+        <img src="assets/images/22.jpg" alt="news1"class="card-img-top img-thumbnail">
         <!-- card body -->
     <div class="card-body">
       <p><i class="fas fa-calendar-check"></i> from 1980-now
@@ -245,39 +225,13 @@ only one runway (06/24) which is 4,117m (13,507ft) paved in asphalt and ILS (Ins
       </div>
     
     </div>
-  
-  
-      <!-- new section -->
-      <section class="newsection bg-light pt-5 pb-3"></section>
-  <p class="card-text">view more</p>
-  <a href="#" class="btn btn-outline-danger"></a>
-  
-  
   </div>
   
   
   </section>
   <!-- new section ends -->
-<section>
-  <h2 class="text-danger text-center">BOOKING<span>FORM</span></h2>
-  <center><div class="border"></div></center>
-  
-   
-  <section>
-    <!-- new section -->
-    <section class="newssection bg-light pt-5 pb-3"  style="background-image: url(assets/images/10.jpg); 
-    background-attachment: fixed; background-repeat:no-repeat;
-    background-size:cover;">
-     
-<div class="row px-2">
-<div class="col-lg-12">
-
-</div>
-</div>
-</section>
-
-  
-
+  <a href="#"class="btn btn-outline-danger btn-sm "><center>read more</center>
+    </a>
 
 <!-- jquery -->
 <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -286,8 +240,49 @@ only one runway (06/24) which is 4,117m (13,507ft) paved in asphalt and ILS (Ins
     <!-- bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
 
-
-
+    <footer class="mt-5 py-4" style="background-image: url(assets/images/10.jpg);background-attachment:fixed;background-size: cover; background-repeat :no-repeat;">
+      <div class="row">
+        <!-- first column -->
+        <div class="col-lg-5">
+          <h5>GET IN TOUCH</h5>
+          <p>
+            monday-friday:<span>8:00to5:00pm</span>
+          </p>
+          <p>saturday: <span>08;00-2;00</span></p>
+          <p>sunday:<span>closed</span></p>
+          <p>follow us on:</p>
+          <ul class="social">
+            <li><a href="#"><i class="fab fa-facebook facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube youtube"></i></a></li>
+          </ul>
+        </div>
+           <!-- second column -->
+           <div class="col-lg-3">
+             <h5>quick links</h5>
+             <ul class="quick-links" style="list-style-type:none">
+             <li><a href="#">contact us on</a></li>
+             <li><a href="#">apply</a></li>
+             <li><a href="#">business portfolio</a></li>
+            </ul>
+           </div>
+           <!-- third column -->
+           <div class="col-lg-4">
+           <h5>CONTACT US</h5>
+           <p class="contact"><i class="fas fa-map-marker"></i><span>home,ground floor nairobi</span>
+           </p>
+           <p class="contact">
+             <i class="fab fa-font-awesome"></i>
+             phone:<a href="tel:25404180935">0701220396</a>
+           </p>
+           <p class="contact">
+            <i class="fas fa-envelope"></i>
+            Email:<a href="mailto:marylynemutindi@gmail.com">
+              info@gmail.com</a>
+           </P>
+           </div>
+      </div>
+      </footer>
 
 
 
